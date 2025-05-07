@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="./">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -32,9 +32,13 @@
   <title>YTY App</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Add required scripts for web plugins -->
+  <script src="https://www.gstatic.com/flutter-canvaskit/skwasm.js"></script>
+  <script src="https://www.gstatic.com/flutter-canvaskit/canvaskit.js"></script>
+
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3190417888";
+    const serviceWorkerVersion = "4103182623";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
